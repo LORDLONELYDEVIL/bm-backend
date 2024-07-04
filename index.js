@@ -12,7 +12,7 @@ app.use(express.json());//middleware for parsing request to body
 //middleware for handling cors policy
 //option1:Allow all origins with default of cors(*)
 //app.use(cors());
-option2 :allow custom origins
+//option2 :allow custom origins
 app.use(cors({
     origin: "https://books-store-mini.netlify.app/",
     methods: ["GET", "POST", "PUT", "DELETE"],
